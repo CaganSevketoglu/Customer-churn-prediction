@@ -36,6 +36,7 @@ The project followed a standard data science pipeline:
 - **Confusion Matrix:**
 
 [[1154  128]
+
 [ 201  278]]
 
 - **Interpretation:** The model is highly effective at identifying customers who will *not* churn (1154 True Negatives). It also successfully identified 278 customers who would churn (True Positives). The main area for improvement is reducing the 201 False Negatives, which represent at-risk customers the model failed to identify.
